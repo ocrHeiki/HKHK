@@ -44,15 +44,15 @@
 
 
 <!---katse vol..5-->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand">Heiki Rebane</a>
-  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+<div class="container">
+<nav class="navbar navbar-expand-lg navbar-light bg-light container-fluid">
+  <a class="navbar-brand" href="#">Heiki Rebane</a>
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-
-  <div class="collapse navbar-collapse" id="navbarText">
-    <ul class="navbar-nav navbar-nav-vertical ml-auto">
-      <li class="nav-item active">
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item">
         <a class="nav-link" href="index.html">Avaleht</a>
       </li>
       <li class="nav-item">
@@ -62,15 +62,12 @@
         <a class="nav-link" href="teenused.html">Teenused</a>
       </li>
       <li class="nav-item">
-        <span class="nav-link"></span>
-      </li>
-      <li class="nav-item">
         <a class="btn btn-primary btn-lg" href="kontakt.html" role="button">Kontakt</a>
       </li>
-
     </ul>
   </div>
 </nav>
+</div>
 
 <!-- Jumbo päise sõnum -->
     <div class="container">
@@ -167,21 +164,26 @@
  
     
  <!-- Oskused ja progress bar -->   
-<div>
+<div class="container">
   <h4 class="text-center">Oskused</h4>
     
+  <p>HTML</p>
     <div class="progress">
         <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 30%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">HTML</div>
       </div>
+  <p>CSS</p>    
       <div class="progress">
         <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 45%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">CSS</div>
       </div>
+  <p>bootstrap</p>
       <div class="progress">
         <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">Bootstrap</div>
       </div>
+  <p>PHP</p>
       <div class="progress">
         <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 35%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">PHP</div>
       </div>
+  <p>Logelemine</p>
       <div class="progress">
         <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 95%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">Logelemine</div>
       </div>
