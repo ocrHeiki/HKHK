@@ -64,3 +64,18 @@ if (isset($_GET['nimetus'])) {
 ?>
 
 </div>
+
+<div class="container mt-5">
+        <h1>Teenuse kalkulaator</h1>
+        <form action="service.php" method="post">
+            <div class="form-group">
+                <label for="number1">Esimene number:</label>
+                <input type="number" class="form-control" id="number1" name="number1" required>
+            </div>
+            <div class="form-group">
+                <label for="number2">Teine number:</label>
+                <input type="number" class="form-control" id="number2" name="number2" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Kalkuleerin</button>
+        </form>
+    </div>
