@@ -1,5 +1,17 @@
-
-Pluus,hall,39,img/n8.jpg
-Pluus,helesinine,69,img/n5.jpg
-Pluus,lilleline,49,img/f2.jpg
-Pluus,"sinine lilleline",89,img/f5.jpg
+pilt,nimetus,värv,suurus,hind
+img/f1.jpg,Pluus, tume,M,25
+img/f2.jpg,Pluus, hele,M,30
+img/f3.jpg,Pluus, punane,M,35
+img/f4.jpg,Pluus, valge-roosa,M,40
+img/f5.jpg,Pluus, lilla-roosa,S,45
+img/f6.jpg,Nööpide ja taskuga pluus, oranz,S,50
+img/f7.jpg,Linased püksid tikandiga, beez,L,55
+img/f8.jpg,Kassidega särk, lilla,M,60
+img/n1.jpg,Nööpidega kampsik, helesinine,S,65
+img/n2.jpg,Nööpidega pluus mustvalge, ruuduline,XL,70
+img/n3.jpg,Nööpidega pluus, valge,XL,75
+img/n4.jpg,Lühikese varrukaga särk, laiguline,XXL,80
+img/n5.jpg,Särk, teksa,S,85
+img/n6.jpg,Püksirihm, valge,M,90
+img/n7.jpg,Vormisärk, helepruun,L,95
+img/n8.jpg,Nööpidega pluus, must,S,100
