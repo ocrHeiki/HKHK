@@ -1,0 +1,13 @@
+---
+- name: WinOS käsud
+  hosts: all
+  
+  tasks:
+
+    - name: Näita WinOS masina nime
+      ansible.windows.win_command:
+        command: hostname
+
+    - name: Näita WinOS versiooni
+      ansible.windows.win_command:
+        command: systeminfo | findstr /B /C:"OS Name" /C:"OS Version"
