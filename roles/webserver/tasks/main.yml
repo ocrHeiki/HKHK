@@ -1,0 +1,22 @@
+- name: Süsteemi uuendus
+  ansible.builtin.apt:
+    update_cache: yes
+    upgrade: yes
+
+- name: Paigalda Apache2
+  ansible.builtin.apt:
+    name: apache2
+    state: present
+
+- name: Veendu, et Apache2 töötab
+  ansible.builtin.service:
+    name: apache2
+    state: started
+    enabled: yes
+
+- name: Luba HTTP port tulemüüris
+  ansible.builtin.ufw:
+    rule: allow
+    port: '80'
+    proto: tcp
+  ignore_errors: yes
