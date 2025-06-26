@@ -1,7 +1,0 @@
----
-- name: Kasutajatoe varunduse seadistus
-  hosts: webserver
-  become: yes
-
-  roles:
-    - backup
