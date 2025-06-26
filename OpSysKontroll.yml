@@ -1,8 +1,0 @@
-   # Kontrollime kas kõik masinad on püsti ja vastavad nende OS versioonile 
-- name: Kontrolli masinate olekut ja OS versiooni
-  hosts: all
-  gather_facts: yes
-  tasks:
-    - name: Kontrolli, kas masin on püsti
-      debug:
-        msg: "Masin {{ inventory_hostname }} töötab {{ ansible_distribution }} versiooniga {{ ansible_distribution_version }}"
