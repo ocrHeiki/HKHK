@@ -1,0 +1,12 @@
+- hosts: webservers
+  become: yes
+  roles:
+    - webserver
+- hosts: dbservers
+  become: yes
+  roles:
+    - dbserver
+- hosts: logservers
+  become: yes
+  roles:
+    - graylog
