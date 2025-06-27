@@ -1,6 +1,6 @@
 Kodut88d siin all peaksid olema tegelikult Kaustad Kodutöö_nr1 ja Kodutöö_nr2
 Nende kohta ma eraldi struktuuri looma ei hakka, sest need paistavad korras olevat.
-
+```
 Kodut88d
 .
 ├── Kodutöö_nr1/
