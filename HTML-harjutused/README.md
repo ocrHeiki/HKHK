@@ -25,4 +25,4 @@ HTML-harjutused
 ├── h06_tabel.html
 ├── island.png
 ├── .gitattributes
-´´´
+
