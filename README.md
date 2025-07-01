@@ -1,6 +1,6 @@
 Siin on kõik Haapsalu Kutsehariduskeskuses (HKHK) sooritatud tööd 2023-2024 õppeperioodi jooksul.
 Kõik need on tehtud nii Programeerimises, Automatiseerimises.
-Mõned kaustad on ka eraldi, nagu PHP lõputöö "LoppVaatus", eksamiks valmistumine "kasutajatugi-ansible" ja ka "kooliEXAM" 
+Mõned kaustad on ka eraldi, nagu PHP lõputöö, eksamiks valmistumine ja kooli eksam.
 
 Iga töö on küll eraldi katalogis, kuid alamkatalogid on neil suure ümbertõstmise käigus kaduma läinud.
 
