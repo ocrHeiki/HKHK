@@ -1,5 +1,6 @@
 Kohvikud
-.
+
+```.
 ├── admin/
 │   └── index.php
 ├── config.php
